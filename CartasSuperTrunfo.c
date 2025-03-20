@@ -12,7 +12,7 @@ Pontos Turísticos
 
 int main(){
 
-    // Declaraçao das Variáveis
+    // Declaração das Variáveis
 
     char Estado01[30], Estado02[30];
     char Codigo01[4], Codigo02[4];
