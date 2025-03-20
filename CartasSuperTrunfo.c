@@ -12,6 +12,8 @@ Pontos Turísticos
 
 int main(){
 
+    // Declaraçao das Variáveis
+
     char Estado01[30], Estado02[30];
     char Codigo01[4], Codigo02[4];
     char Cidade01[30], Cidade02[30];
@@ -22,9 +24,9 @@ int main(){
     float Densidade_Populacional01, Densidade_Populacional02;
     float PIB_per_Capita01, PIB_per_Capita02;
 
-    // Banner do game
+    // Mensagem de boas-vindas
 
-    printf("*** Super Trunfo em C ***\n");
+    printf("*** Seja bem-vindo ao Super Trunfo em C! ***\n");
 
     // Leitura de dados do usuário
 
