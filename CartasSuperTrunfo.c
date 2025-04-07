@@ -171,7 +171,7 @@ int main(){
         printf("%s: %.2f\n", Estado02, Densidade_Populacional02);
 
         if (Densidade_Populacional01 < Densidade_Populacional02){
-            printf("Vencedor: %s", Estado01);
+            printf("Vencedor: %s\n", Estado01);
         } else if (Densidade_Populacional02 < Densidade_Populacional01){
             printf("Vencedor: %s\n", Estado02);
         } else {
