@@ -140,7 +140,7 @@ int main(){
         case 2:
             printf("\n--- Área ---\n");
             printf("%s: %.2f\n", Estado01, Area01);
-            printf("%s: %.2f", Estado02, Area02);
+            printf("%s: %.2f\n", Estado02, Area02);
 
         if (Area01 > Area02){
             printf("Vencedor: %s\n", Estado01);
@@ -164,6 +164,37 @@ int main(){
             printf("Empate!\n");
         }
         break;
+
+        case 4:
+           printf("\n--- Densidade Populacional (Menor vence!) ---\n");
+           printf("%s: %.2f\n", Estado01, Densidade_Populacional01);
+           printf("%s: %.2f\n", Estado02, Densidade_Populacional02);
+
+        if (Densidade_Populacional01 > Densidade_Populacional02){
+            printf("Vencedor: %s", Estado01);
+        } else if (Densidade_Populacional01 < Densidade_Populacional02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+
+        case 5:
+            printf("\n--- Pontos Turísticos ---\n");
+            printf("%s: %d\n", Estado01, Pontos_Turisticos01);
+            printf("%s: %d\n", Estado02, Pontos_Turisticos02);
+
+        if (Pontos_Turisticos01 > Pontos_Turisticos02){
+            printf("Vencedor: %s\n", Estado01);
+        } else if (Pontos_Turisticos01 < Pontos_Turisticos02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+
+        default:
+            printf("Opção inválida!\n");
     }
 
     
