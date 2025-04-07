@@ -105,9 +105,21 @@ int main(){
     printf("Densidade Populacional 02: %.2f hab/km²\n", Densidade_Populacional02);
     printf("PIB per Capita 02: %.2f\n", PIB_per_Capita02);
 
-return 0;
+    // Menu interativo com switch-case
 
-}
+    int opcao; // Armazena a opção do usuário
 
+    printf("\n/// Menu de Comparação///\n");
+    printf("Escolha uma das opções abaixo para comparar: \n");
+    printf("1. População");
+    printf("2. Área\n");
+    printf("3. Pontos Turísticos\n");
+    printf("4. Densidade Populacional\n");
+    printf("5. Pontos Turísticos");
 
+    // Armazenando a escolha do usuário
+
+    scanf("%d", opcao);
+
+    
      
