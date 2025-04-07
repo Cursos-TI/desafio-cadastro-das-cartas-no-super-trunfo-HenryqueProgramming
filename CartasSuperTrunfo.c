@@ -136,6 +136,34 @@ int main(){
             printf("Empate!\n");
         }
         break;
+
+        case 2:
+            printf("\n--- Área ---\n");
+            printf("%s: %.2f\n", Estado01, Area01);
+            printf("%s: %.2f", Estado02, Area02);
+
+        if (Area01 > Area02){
+            printf("Vencedor: %s\n", Estado01);
+        } else if (Area01 < Area02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+
+        case 3:
+            printf("\n--- PIB ---\n");
+            printf("%s: %.2f\n", Estado01, PIB01);
+            printf("%s: %.2f\n", Estado02, PIB02);
+
+        if (PIB01 > PIB02){
+            printf("Vencedor: %s\n", Estado01); 
+        } else if (PIB01 < PIB02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
     }
 
     
