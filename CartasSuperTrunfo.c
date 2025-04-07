@@ -121,5 +121,22 @@ int main(){
 
     scanf("%d", opcao);
 
+    switch (opcao)
+    {
+    case 1:
+        printf("\n--- População ---\n");
+        printf("%s: %lu\n", Estado01, Populacao01);
+        printf("%s: %lu\n", Estado02, Populacao02);
+
+        if (Populacao01 > Populacao02){
+            printf("Vencedor: %s\n", Estado01);
+        } else if (Populacao01 < Populacao02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+    }
+
     
      
